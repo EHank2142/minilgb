@@ -98,7 +98,7 @@ iterations; for our implementation, iteration 1 is excluded because it includes 
 
 ### 5.1 Table 2: training time per iteration (s)
 
-| Dataset | Source | xgb_exa | xgb_his | lgb_baseline | EFB_only | LightGBM (EFB+GOSS) | speed-up vs baseline |
+| Dataset | Source | xgb_exa (pre-sorted algorithm) | xgb_his (histogram-based algorithm) | lgb_baseline | EFB_only | LightGBM (EFB+GOSS) | speed-up vs baseline |
 |---|---|---|---|---|---|---|---|
 | Flight Delay | paper (10M rows, 16 thr) | 5.94 | 1.05 | 1.39 | 0.27 | 0.22 | **6.3×** |
 | Flight Delay (1M rows) | official libs | 0.313 | 0.085 | 0.513 | 0.053 | 0.066 | **7.8×** |
