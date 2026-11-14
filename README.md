@@ -180,7 +180,7 @@ n rows, using real Flight gradients. Relative error (averaged over random draws)
 
 **Reproduced**
 * **EFB is the main source of the speed-up on sparse data, and it is lossless at γ = 0.**
-  * On Flight it gives 2.7× (ours) and 9.6× (official) over the baseline; the paper reports 5.1×.
+  * On Flight it gives 2.7× (our minilgb) and 9.6× (official LightGB) over the baseline; the paper reports 5.1×.
   * On the synthetic KDD-like data it gives 3.3× (ours) and 113× (official).
   * Accuracy is bit-identical in our implementation and to five decimals in the official one.
   * On dense LETOR it does nothing, as in the paper.
