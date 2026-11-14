@@ -23,7 +23,7 @@ COMP3314 project: paper study and (bonus) experiment reproduction.
 | Table 4 GOSS vs SGB at equal sampling ratio | ✅ | MSLR-WEB10K, early stopping on the validation split |
 | Thm 3.2 (GOSS error bound) | ✅ empirical check | real gradients, error vs. n, GOSS vs. random sampling |
 | EFB on KDD10 / KDD12, γ study (supplement) | ⚠️ substitute | a KDD-like synthetic dataset (300k × 66k sparse features); the real ones need more than 64 GB RAM |
-| Allstate | ❌ | Kaggle login required; 12M × 4228 does not fit the memory budget |
+| Allstate (The dataset of Claim Prediction Challenge) | ❌ | 12M × 4228 features does not fit the memory budget |
 
 **Hardware:** Intel i5-11400H (6 cores / 12 threads), 16 GB RAM, Windows 10. All methods use 6 threads.
 **Paper:** 2 × Xeon E5-2670 v3, 256 GB RAM, 16 threads. Absolute times are therefore *not*
