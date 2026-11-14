@@ -196,7 +196,7 @@ n rows, using real Flight gradients. Relative error (averaged over random draws)
   * Combined with EFB, the speed-up over the baseline is 1.5–3.5× for us and 2.5–7.8× for the
     official library. The paper reports 1.6–6.3×.
 * **GOSS beats SGB at every sampling ratio (Table 4), in both implementations.**
-  * Our gap is larger than the paper's: +0.005 to +0.016 NDCG versus +0.003 to +0.004.
+  * Our gap is larger than the paper's: +0.003 to +0.016 NDCG versus +0.003 to +0.004.
   * The ablation shows that the (1−a)/b re-weighting is essential. Without it, GOSS falls to the
     level of SGB, because the sample is biased.
 * **Histogram + leaf-wise growth matches XGBoost's accuracy.** xgb_exa (exact, depth-wise) is
