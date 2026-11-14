@@ -118,8 +118,6 @@ iterations; for our implementation, iteration 1 is excluded because it includes 
 | LETOR | official libs | 0.5083 | 0.5085 | 0.5066 | 0.4962 | 0.5033 |
 | LETOR | **ours** | – | – | 0.5070 | 0.4959 | 0.5031 |
 
-`RESULTS.md` also gives LETOR scores at the best *validation* iteration, which avoids selecting on
-the test set. The ranking of the methods does not change.
 
 ![Flight](results/figures/fig1_flight_time_auc.png)
 ![LETOR](results/figures/fig2_letor_time_ndcg.png)
