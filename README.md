@@ -93,8 +93,7 @@ Individual experiments:
 
 ## 5. Results
 
-All numbers below come from `results/*.json` and are rebuilt by `python experiments/make_report.py`. All runs use 500
-iterations, 6 threads and the same hyper-parameters for every method (§2). Times are means over
+All runs use 500 iterations, 6 threads and the same hyper-parameters for every method (§2). Times are means over
 iterations; for our implementation, iteration 1 is excluded because it includes Numba JIT compilation.
 
 ### 5.1 Table 2: training time per iteration (s)
