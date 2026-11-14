@@ -21,8 +21,8 @@ COMP3314 project: paper study and (bonus) experiment reproduction.
 | Table 2 (time / iteration) and Table 3 (accuracy) | ✅ partial | Flight Delay (1M of the 10M rows) and LETOR (MSLR-WEB10K instead of WEB30K) |
 | Fig. 1 / Fig. 2 time–accuracy curves | ✅ | same two datasets |
 | Table 4 GOSS vs SGB at equal sampling ratio | ✅ | MSLR-WEB10K, early stopping on the validation split |
-| Thm 3.2 (GOSS error bound) | ✅ empirical check | real gradients, error vs. n, GOSS vs. random sampling |
-| EFB on KDD10 / KDD12, γ study (supplement) | ⚠️ substitute | a KDD-like synthetic dataset (300k × 66k sparse features); the real ones need more than 64 GB RAM |
+| Thm 3.2 (GOSS error bound) | ✅  | real gradients, error vs. n, GOSS vs. random sampling |
+| EFB on KDD10 / KDD12, γ study (supplement) | substitute | a KDD-like synthetic dataset (300k × 66k sparse features); the real ones need more than 64 GB RAM |
 | Allstate (The dataset of Claim Prediction Challenge) | ❌ | 12M × 4228 features does not fit the memory budget |
 
 **Hardware:** Intel i5-11400H (6 cores / 12 threads), 16 GB RAM, Windows 10. All methods use 6 threads.
