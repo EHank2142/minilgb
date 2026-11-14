@@ -1,0 +1,108 @@
+{
+ "shape": [
+  300000,
+  68264
+ ],
+ "nnz_per_row": 15.994266666666666,
+ "ours": {
+  "baseline": {
+   "groups": 48935,
+   "iter_time": 0.4336752161645857,
+   "auc": 0.8071440140200227
+  },
+  "efb": {
+   "groups": 345,
+   "iter_time": 0.13129255656244684,
+   "auc": 0.8071440140200227,
+   "bundle_time": 3.9133529663085938,
+   "conflicts": 0
+  }
+ },
+ "official": {
+  "baseline": {
+   "iter_time": 6.444316949494856,
+   "auc": 0.8069979370171596,
+   "construct": 36.80338890000712
+  },
+  "efb": {
+   "iter_time": 0.05686322323192438,
+   "auc": 0.8069979370171596,
+   "construct": 1.131861799978651
+  }
+ },
+ "order": {
+  "degree": {
+   "groups": 350,
+   "bundle_time": 4.841535806655884
+  },
+  "count": {
+   "groups": 345,
+   "bundle_time": 4.000183582305908
+  }
+ },
+ "gamma": [
+  {
+   "gamma": 0.0,
+   "groups": 345,
+   "conflict_rows": 0,
+   "iter_time": 0.1312935242412913,
+   "auc": 0.8071440140200227,
+   "official_iter_time": 0.055238905050580135,
+   "official_auc": 0.8069979370171596
+  },
+  {
+   "gamma": 0.0001,
+   "groups": 251,
+   "conflict_rows": 7325,
+   "iter_time": 0.128090391917427,
+   "auc": 0.8071007488191747,
+   "official_iter_time": 0.05587327373719708,
+   "official_auc": 0.8069979370171596
+  },
+  {
+   "gamma": 0.001,
+   "groups": 103,
+   "conflict_rows": 29445,
+   "iter_time": 0.1311061171711319,
+   "auc": 0.8068614146144837,
+   "official_iter_time": 0.05511858686863567,
+   "official_auc": 0.8069979370171596
+  },
+  {
+   "gamma": 0.01,
+   "groups": 57,
+   "conflict_rows": 156456,
+   "iter_time": 0.15157874949709182,
+   "auc": 0.8059473785965686,
+   "official_iter_time": 0.056339471717365086,
+   "official_auc": 0.8069979370171596
+  },
+  {
+   "gamma": 0.05,
+   "groups": 35,
+   "conflict_rows": 456705,
+   "iter_time": 0.10417690303181346,
+   "auc": 0.8008103216958823,
+   "official_iter_time": 0.056412834343100626,
+   "official_auc": 0.8069979370171596
+  },
+  {
+   "gamma": 0.1,
+   "groups": 27,
+   "conflict_rows": 670072,
+   "iter_time": 0.0979567818147262,
+   "auc": 0.7989465192593518,
+   "official_iter_time": 0.05621250909094633,
+   "official_auc": 0.8069979370171596
+  },
+  {
+   "gamma": 0.2,
+   "groups": 20,
+   "conflict_rows": 946018,
+   "iter_time": 0.09175024848229092,
+   "auc": 0.7953679767892123,
+   "official_iter_time": 0.055719665656186114,
+   "official_auc": 0.8069979370171596
+  }
+ ]
+}
